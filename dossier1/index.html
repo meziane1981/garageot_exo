@@ -2,143 +2,146 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script src="https://kit.fontawesome.com/88952f0faa.js " crossorigin="anonyme"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#"><i class="fas fa-home"></i>Accueil</a>
-            <a href="#"><i class="far fa-calendar-alt"></i>Rendez-vous</a>
-            <a href="#"><i class="fas fa-users"></i>L'équipe</a>
-            <a href="#"><i class="far fa-image"></i>Album Photo</a>
-            <a href="#"><i class="far fa-envelope"></i>Nous contacter</a>
-        </nav>
-        <h2>OFFRE 2017: une roue achetée, une autre pas gratuit!</h2>
-        <h1>Bienvenue chez Jacquot le garageot</h1>
+            <a href="#"><span><i class="fas fa-home"></i></span>Accueil</a
+        >
+        <a href="#"
+          ><span><i class="far fa-calendar-alt"></i></span>Rendez-vous</a
+        >
+        <a href="#"
+          ><span><i class="fas fa-users"></i></span>L'équipe</a
+        >
+        <a href="#"
+          ><span><i class="far fa-image"></i></span>Album Photo</a
+        >
+        <a href="#"
+          ><span><i class="far fa-envelope"></i></span>Nous contacter</a
+        >
+      </nav>
+      <h2>OFFRE 2017: une roue achetée, une autre pas gratuit!</h2>
+      <h1>Bienvenue chez Jacquot le garageot</h1>
     </header>
 
     <main>
-        <h2>Quelques uns de nos prix</h2>
-        <table>
-            <tr>
-                <th colspan="3">En réparation</th>
-            </tr>
-            <tr>
-                <td>Changer un pneu</td>
-                <td>10 minutes</td>
-                <td>8000 €</td>
-            </tr>
-            <tr>
-                <td>Changer une vitre</td>
-                <td>40 minutes</td>
-                <td>12000€</td>
-            </tr>
-            <tr>
-                <td>Changer rien</td>
-                <td>0 minute</td>
-                <td>500 €</td>
-            </tr>
-            <tr>
-                <td>Regarder la voiture</td>
-                <td>2 minutes</td>
-                <td>1000 €</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th colspan="3">En tunning</th>
-            </tr>
-            <tr>
-                <td>Regarder la peinture</td>
-                <td>2 minutes</td>
-                <td>1000 €</td>
-            </tr>
-            <tr>
-                <td>Peindre une aile</td>
-                <td>10 minutes</td>
-                <td>7500€</td>
-            </tr>
-            <tr>
-                <td>Rayer la voiture</td>
-                <td>5 minute</td>
-                <td>C'est caeau !</td>
-            </tr>
-            <tr>
-                <td>Faire des flammes super belles</td>
-                <td>400 minutes</td>
-                <td>1 million d'€</td>
-            </tr>
-        </table>
-        <br><br>
-        <h2>Pour réservé un créneau horraire, compléter ce formulaire:</h2>
-        <form method="post" action="traitement.php">
-            <fieldset>
-                <legend>Vos coordonnées</legend>
-                <label>Votre prénom</label> : <input type="text" name="prenom" />
-                <label>Votre nom</label> : <input type="text" name="nom" />
-                <label>Votre mail</label> : <input type="text" name="mail" />
-            </fieldset>
-
-            <fieldset>
-                <legend>Quelles sont les raisons de votre venue ?</legend>
-
-
-                <label for="entretien">Je dois entretenir mon véhicule</label> <input type="checkbox" name="entretien" id="entretien" />
-                <label for="trop">J'ai trop d'argent</label><input type="checkbox" name="trop" id="^rop" />
-                <label for="accident">j'ai un accident</label><input type="checkbox" name="accident" id="accident" />
-
-
-            </fieldset>
-
-            <fieldset>
-                <legend>Voulez-vous inscrire à notre programme de fidélité ?</legend>
-
-
-                <label for="oui">Oui</label><input type="radio" name="oui" value="oui" id="oui" />
-                <label for="oui">Oui</label> <input type="radio" name="oui" value="oui" id="oui" />
-
-
-            </fieldset>
-            <fieldset>
-                <legend>Comment avez-vous connu la Yoga?</legend>
-                <select name="choisir" id="choisir">
-                        <option value="Par internet" selected cols=80 ro>Par internet</option>
-                        <option value="Par amis">Par amis</option>
-                        <option value="Par fournisseur">Par fournisseur</option>
-                        <option value="autr">autre</option>
-                </select>
-            </fieldset>
-            <button type="button">Envoyer</button>
-        </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <table>
+        <caption>
+          Quelques uns de nos prix
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="3">En réparation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Changer un pneu</td>
+            <td>10 minutes</td>
+            <td>8000 €</td>
+          </tr>
+          <tr>
+            <td>Changer une vitre</td>
+            <td>40 minutes</td>
+            <td>12000€</td>
+          </tr>
+          <tr>
+            <td>Changer rien</td>
+            <td>0 minute</td>
+            <td>500 €</td>
+          </tr>
+          <tr>
+            <td>Regarder la voiture</td>
+            <td>2 minutes</td>
+            <td>1000 €</td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">En tunning</th>
+          </tr>
+          <tr>
+            <td>Regarder la peinture</td>
+            <td>2 minutes</td>
+            <td>1000 €</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Peindre une aile</td>
+            <td>10 minutes</td>
+            <td>7500€</td>
+          </tr>
+          <tr>
+            <td>Rayer la voiture</td>
+            <td>5 minute</td>
+            <td>C'est caeau !</td>
+          </tr>
+          <tr>
+            <td>Faire des flammes super belles</td>
+            <td>400 minutes</td>
+            <td>1 million d'€</td>
+          </tr>
+        </tbody>
+      </table>
+      <br /><br />
+      <h2>Pour réservé un créneau horraire, compléter ce formulaire:</h2>
+      <form method="post" action="traitement.php">
+        <fieldset>
+          <legend>Vos coordonnées</legend>
+          <label>Votre prénom</label> : <input type="text" name="prenom" />
+          <label>Votre nom</label> : <input type="text" name="nom" />
+          <label>Votre mail</label> : <input type="text" name="mail" />
         </fieldset>
-        </form>
-</body>
 
+        <fieldset>
+          <legend>Quelles sont les raisons de votre venue ?</legend>
+
+          <label for="entretien">Je dois entretenir mon véhicule</label>
+          <input type="checkbox" name="entretien" id="entretien" />
+          <label for="trop">J'ai trop d'argent</label
+          ><input type="checkbox" name="trop" id="^rop" />
+          <label for="accident">j'ai un accident</label
+          ><input type="checkbox" name="accident" id="accident" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Voulez-vous inscrire à notre programme de fidélité ?</legend>
+
+          <label for="oui">Oui</label
+          ><input type="radio" name="oui" value="oui" id="oui" />
+          <label for="oui">Non</label>
+          <input type="radio" name="oui" value="oui" id="oui" />
+        </fieldset>
+        <fieldset>
+          <legend>Comment avez-vous connu la Yoga?</legend>
+          <select name="choisir" id="choisir">
+            <option value="Par internet" selected cols="80" ro>
+              Par internet
+            </option>
+            <option value="Par amis">Par amis</option>
+            <option value="Par fournisseur">Par fournisseur</option>
+            <option value="autr">autre</option>
+          </select>
+        </fieldset>
+        <button type="button">Envoyer</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright 2021</p>
+    </footer>
+  </body>
 </html>
